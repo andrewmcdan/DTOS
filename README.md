@@ -1,6 +1,6 @@
 # Digital Tactical Open Source (DTOS) Radio
 ## Purpose
-The DTOS radio project aims to create an advanced, open-source communications platform designed specifically for use by military, paramilitary, civilian militia, and emergency services personnel who lack the backing of well-financed organizations. This initiative seeks to provide an affordable alternative to expensive proprietary radios, democratizing access to high-quality tactical communication tools like the Persistent Systems MPU5 or the Harris Falcon III. While commercial systems can cost upwards of $5,000 to $20,000 (USD) and more, the goal of the DTOS radio is to buildable for under $500, depending on the how the case is made (machined aluminum, 3D printed ABS, etc).
+The DTOS radio project aims to create an advanced, open-source communications platform designed specifically for use by military, paramilitary, civilian militia, and emergency services personnel who lack the backing of well-financed organizations. This initiative seeks to provide an affordable alternative to expensive proprietary radios, democratizing access to high-quality tactical communication tools like the Persistent Systems MPU5 or the Harris Falcon III. While commercial systems can cost upwards of $5,000 to $20,000 (USD) and more, the goal of the DTOS radio is to be buildable for under $500, depending on the how the case is made (machined aluminum, 3D printed ABS, etc).
 
 ## Target Audience
 - Military
