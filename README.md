@@ -1,4 +1,4 @@
-# Digital Tactical Open Source Radio (DTOS) Project Overview
+# Digital Tactical Open Source (DTOS) Radio
 ## Purpose
 The DTOS radio project aims to create an advanced, open-source communications platform designed specifically for use by military, paramilitary, civilian militia, and emergency services personnel who lack the backing of well-financed organizations. This initiative seeks to provide an affordable alternative to expensive proprietary radios, democratizing access to high-quality tactical communication tools like the Wave Radio MPU5 or the Harris Falcon III. 
 
