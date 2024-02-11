@@ -1,6 +1,6 @@
-# Digital Tactical Open Source (DTOS) Radio
+# Tactical Open Source Radio (TOSR)
 ## Purpose
-The DTOS radio project aims to create an advanced, open-source communications platform designed specifically for use by military, paramilitary, civilian militia, and emergency services personnel who lack the backing of well-financed organizations. This initiative seeks to provide an affordable alternative to expensive proprietary radios, democratizing access to high-quality tactical communication tools like the Persistent Systems MPU5 or the Harris Falcon III. While commercial systems can cost upwards of $5,000 to $20,000 (USD) and more, the goal of the DTOS radio is to be buildable for under $500, depending on the how the case is made (machined aluminum, 3D printed ABS, etc).
+The TOSR (tosser) project aims to create an advanced, open-source communications platform designed specifically for use by military, paramilitary, civilian militia, and emergency services personnel who lack the backing of well-financed organizations. This initiative seeks to provide an affordable alternative to expensive proprietary radios, democratizing access to high-quality tactical communication tools like the Persistent Systems MPU5 or the Harris Falcon III. While commercial systems can cost upwards of $5,000 to $20,000 (USD) and more, the goal of the TOSR radio is to be buildable for under $500, depending on the how the case is made (machined aluminum, 3D printed ABS, etc).
 
 ## Target Audience
 - Military
@@ -54,7 +54,7 @@ The software for the Teensy, which handles most of the low level management of t
 The LoRa module is supplied by Adafruit Industries and includes a Feather M0 processor. Compile and load using Arduino. See repo for dependencies. 
 
 ### [Android App]()
-Companion Android app for viewing peer's locations on a map and configuring the DTOS.
+Companion Android app for viewing peer's locations on a map and configuring the TOSR.
 
 # Contributing
 Contributions are welcomed from developers, designers, engineers, and enthusiasts across the board. For more information on contributing, please see contributing.md, along with the respective sub-project repositories.
@@ -64,4 +64,4 @@ The [M17 project](https://m17project.org/) looks like a good foundation on which
 
 [Ribbit Radio](https://www.ribbitradio.org/#/) may be another good source to look at.
 
-At some point, once I have working prototypes, I would like to start making kits to sell on Tindie so that folks can make their own DTOS radio without needing to source the PCB(s) and case.
+At some point, once I have working prototypes, I would like to start making kits to sell on Tindie so that folks can make their own TOSR without needing to source the PCB(s) and case.
