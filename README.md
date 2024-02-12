@@ -21,7 +21,8 @@ The TOSR (tosser) project aims to create an advanced, open-source communications
 - GPS
 ### Ports / Connectors
 - K1 connector for headsets
-- USB-C for charging and data.
+- USB-C for charging and data
+- Ethernet
 
 ## Future Functionalities
 - Support for IP devices (laptops, cellphones via WiFi)
@@ -40,7 +41,11 @@ Some functionality can be added in the future through software updates, and this
 The primary challenge lies in the solo development phase, which requires extensive work to reach a working prototype. The project's success depends on effective time management and potentially expanding the development team to accelerate progress.
 
 ## Sub-Projects
-This project is broken down into various sub-projects/repos in order to maintain organization.
+The TOSR project is broken down into various sub-projects/repos in order to maintain organization.
+
+### This repo
+This repo will contain the schematics, PCB designs, etc. The most up-to-date schematics can be found [here](https://oshwlab.com/andrewmcdan/raspi-cm4-carrier).
+
 ### Raspberry Pi Software
 The Raspberry Pi runs a standard Raspberry Pi OS Lite image with the following applications running as daemons:
 - [WiFi / network manager](https://github.com/andrewmcdan/TOSR-RPi-network-manager)
