@@ -10,11 +10,12 @@ The TOSR (tosser) project aims to create an advanced, open-source communications
 
 ## Technical Specifications
 ### Core Components
-- Processor: Raspberry Pi 4B with modifications to remove through-hole connectors for a lower profile.
-- System Management: Teensy 4.1 microcontroller.
+- Raspberry Pi 4B with modifications to remove through-hole connectors for a lower profile.
+- [WiFi Module]() - The RasPi's integrated WiFi will be used for connecting to another unit, and the a secondary WiFi module is used for an AP for other units to connect to. Currently evaluating types and styles of modules to use.
+- Teensy 4.1 microcontroller: This will handle communication between the RasPi and the other modules along with encoding data into audio signals.
 ### Radios
-- VHF/UHF: 3 UHF/VHF pairs of SA818 module, for voice and data over short range
-- 900MHz LoRa: Long range data, low bandwidth
+- VHF/UHF: 3 UHF/VHF pairs of SA818 modules, for voice and data over short range
+- 900MHz LoRa: Long range data, low bandwidth, for telemetry (GPS, etc)
 - WiFi 2.4GHz and 5GHz: IP comms
 - Bluetooth: Cellphone interface
 - GPS
@@ -42,15 +43,16 @@ The primary challenge lies in the solo development phase, which requires extensi
 This project is broken down into various sub-projects/repos in order to maintain organization.
 ### Raspberry Pi Software
 The Raspberry Pi runs a standard Raspberry Pi OS Lite image with the following applications running as daemons:
-- [WiFi / network manager]()
-- [Audio decoder]()
+- [WiFi / network manager](https://github.com/andrewmcdan/TOSR-RPi-network-manager)
+- [Audio decoder](https://github.com/andrewmcdan/TOSR-RPi-Audo-Decoder)
+- [Module Manager](https://github.com/andrewmcdan/TOSR-RPi-Module-Manager)
 
 The daemons can be installed using the script (not created yet).sh from this repo which will download the necessary files and install them.
 
-### [Teensy 4.1]()
+### [Teensy 4.1](https://github.com/andrewmcdan/TOSR-Teensy)
 The software for the Teensy, which handles most of the low level management of the hardware (outside of the RasPi), should be compiled and loaded using Arduino. Dependencies are noted in the repo.
 
-### [LoRa Module]()
+### [LoRa Module](https://github.com/andrewmcdan/TOSR-LoRa-Feather-M0)
 The LoRa module is supplied by Adafruit Industries and includes a Feather M0 processor. Compile and load using Arduino. See repo for dependencies. 
 
 ### [Android App]()
