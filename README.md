@@ -43,7 +43,7 @@ The primary challenge lies in the solo development phase, which requires extensi
 ## Sub-Projects
 The TOSR project is broken down into various sub-projects/repos in order to maintain organization.
 
-### This repo
+### [Schematics](https://github.com/andrewmcdan/TOSR-Schematics)
 This repo will contain the schematics, PCB designs, etc. The most up-to-date schematics can be found [here](https://oshwlab.com/andrewmcdan/raspi-cm4-carrier).
 
 ### Raspberry Pi Software
