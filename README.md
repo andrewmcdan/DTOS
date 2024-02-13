@@ -41,7 +41,7 @@ Some functionality can be added in the future through software updates, and this
 The primary challenge lies in the solo development phase, which requires extensive work to reach a working prototype. The project's success depends on effective time management and potentially expanding the development team to accelerate progress.
 
 ## Sub-Projects
-The TOSR project is broken down into various sub-projects/repos in order to maintain organization.
+The TOSR project is broken down into various sub-projects/repos in order to maintain organization. This repo contains the specs that each one is based on. As the project progresses, the sub-projects may progress beyond the what has been specified in the specs file here. The specs files are meant as the starting point for getting each sub-project going.
 
 ### [Schematics](https://github.com/andrewmcdan/TOSR-Schematics)
 This repo will contain the schematics, PCB designs, etc. The most up-to-date schematics can be found [here](https://oshwlab.com/andrewmcdan/raspi-cm4-carrier).
