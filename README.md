@@ -12,7 +12,7 @@ The TOSR (tosser) project aims to create an advanced, open-source communications
 ### Core Components
 - Raspberry Pi 4B with modifications to remove through-hole connectors for a lower profile.
 - [WiFi Module]() - The RasPi's integrated WiFi will be used for connecting to another unit, and the a secondary WiFi module is used for an AP for other units to connect to. Currently evaluating types and styles of modules to use.
-- Teensy 4.1 microcontroller: This will handle communication between the RasPi and the other modules along with encoding data into audio signals.
+- Teensy 4.1 microcontroller: This will handle communication between the RasPi and the other modules along with encoding data into audio signals and low level system management.
 ### Radios
 - VHF/UHF: 3 UHF/VHF pairs of SA818 modules, for voice and data over short range
 - 900MHz LoRa: Long range data, low bandwidth, for telemetry (GPS, etc)
